@@ -9,3 +9,4 @@ pymongo
 sortedcontainers
 python-dateutil
 pytest
+git+git://github.com/teleprint-me/coinbasepro-python.git

@@ -8,7 +8,6 @@ def main(mytimer: func.TimerRequest) -> None:
     engine.main()
     print('Engine Finished')
     
-    
     utc_timestamp = datetime.datetime.utcnow().replace(
         tzinfo=datetime.timezone.utc).isoformat()
 

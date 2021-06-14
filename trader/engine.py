@@ -2,14 +2,13 @@ from datetime import datetime, timedelta
 import time
 import json
 import calendar
-import config
 import cbpro
 
-# Credentials
-key = config.key
-secret = config.secret
-passphrase = config.passphrase
-sandbox = config.sandbox
+#Credentials
+key = '8da2e3ada96a6fee893ad8750e0f341d'
+secret = 'JS/IioxL15Lg3liGWYMiHAOF8ZFXq1ie6met1ed1++T61ImuJeo93Sjk7S2xkQ8LCmDDq36hRYz2FcuChp/HSw=='
+passphrase = 'k8f4r1czu8s'
+sandbox = 'https://api-public.sandbox.pro.coinbase.com'
 
 # Clients
 messenger = cbpro.Messenger()
@@ -238,5 +237,3 @@ def main():
         
     print(archive)
     print(f'Time to complete: {time.time() - start}')
-
-main()
